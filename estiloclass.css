@@ -1,0 +1,76 @@
+@font-face{
+	font-family: Marseline;
+	src:url(../fonts/Marseline.ttf);
+}
+h1{
+	font-family: Marseline;
+	color:white;
+	font-size: 100px;
+}
+header{
+	background-color:#78DBA4;
+	padding: 25px;
+	font-size: 25px;
+	font-family: Century Gothic;
+	text-align: center;
+
+}
+#lista1{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;/*pendiente*/
+	text-align: center;
+	background-color: pink;
+
+
+
+}
+li a {
+float: left;/*pendiente*/
+padding-top:30px ;
+padding-left:130px;
+display: block;
+color:white;
+text-decoration: none;
+text-align: center;
+font-size: 30px;
+}
+li a:hover {
+background-color:#FF69B4;
+}
+h2{
+	font-family: "Century Gothic";
+	font-family:30px;
+	color: #38BCA3;
+
+
+}
+footer{
+	clear: both;
+	background-color: #FFC77F;
+	padding: 90px;
+	text-align: center;
+}
+.centericon{
+	padding: 50px;
+}
+figure{
+	display: inline-block;
+	margin: 20px;
+}
+figure img{
+	vertical-align: top;
+}
+figure figcaption{
+	border: 1px dotted blue;
+	text-align: center;
+}
+#gal{
+	clear: both;
+	text-align: center;
+}
+.zoom:hover{
+justify-content: center;
+transform: scale(1.5); 
+}
